@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="New Button (list of tasks)">df94c1372fb72010134b56e62799b6a9</button>
+        <color_theme>primary</color_theme>
+        <description/>
+        <field_name/>
+        <icon/>
+        <label>New</label>
+        <location>top</location>
+        <name>New (list of tasks)</name>
+        <order/>
+        <parent>0394c1372fb72010134b56e62799b69f</parent>
+        <parent_table>sys_sg_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-05 09:53:12</sys_created_on>
+        <sys_id>1394c1372fb72010134b56e62799b6ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New (list of tasks)</sys_name>
+        <sys_package display_value="My To do List" source="x_624599_my_to_do">6f2349b32fb72010134b56e62799b63c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My To do List">6f2349b32fb72010134b56e62799b63c</sys_scope>
+        <sys_update_name>sys_sg_button_instance_1394c1372fb72010134b56e62799b6ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-05 09:53:12</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=1394c1372fb72010134b56e62799b6ae"/>
+</record_update>

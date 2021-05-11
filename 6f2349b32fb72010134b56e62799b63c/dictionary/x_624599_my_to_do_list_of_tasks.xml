@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="list of tasks" max_length="40" name="x_624599_my_to_do_list_of_tasks" sizeclass="6" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Allotted time" mandatory="true" max_length="40" name="allotted_time" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="1 day" sequence="0" value="1 day"/>
+                <element inactive_on_update="false" label="2 days" sequence="1" value="2 days"/>
+                <element inactive_on_update="false" label="3 days" sequence="2" value="3 days"/>
+                <element inactive_on_update="false" label="1 week" sequence="3" value="1 week"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Instructions" max_length="200" name="instructions" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Priority" mandatory="true" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="-- New choice --" sequence="0" value="-- New choice --"/>
+                <element inactive_on_update="false" label="Low" sequence="0" value="1"/>
+                <element inactive_on_update="false" label="Medium" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="High" sequence="2" value="3"/>
+            </choice>
+        </element>
+        <element label="Spent Money" max_length="40" name="spent_money" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Due Date" mandatory="true" max_length="40" name="u_calendar_date_time_4" type="calendar_date_time"/>
+        <element label="Due Date" mandatory="true" max_length="40" name="u_due_date_3" type="due_date"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Steps" max_length="1024" name="u_glide_list_1" type="glide_list"/>
+        <element label="New Long" max_length="40" name="u_longint_2" type="longint"/>
+        <element attributes="edge_encryption_enabled=true" dependent="spent_money" dependent_on_field="spent_money" label="item bought" max_length="40" name="u_string_5" type="string" use_dependent_field="true"/>
+    </element>
+</database>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_screen_field">
+    <sys_sg_screen_field action="INSERT_OR_UPDATE">
+        <data_item_field_name>spent_money</data_item_field_name>
+        <description_text/>
+        <description_text_field/>
+        <description_text_type/>
+        <field_name/>
+        <hidden>false</hidden>
+        <order>50</order>
+        <record_id_field/>
+        <screen display_value="Details">c794c1372fb72010134b56e62799b6a0</screen>
+        <screen_data_item_table>x_624599_my_to_do_list_of_tasks</screen_data_item_table>
+        <sys_class_name>sys_sg_screen_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-05 09:53:12</sys_created_on>
+        <sys_id>5f94c1372fb72010134b56e62799b6af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>spent_money</sys_name>
+        <sys_package display_value="My To do List" source="x_624599_my_to_do">6f2349b32fb72010134b56e62799b63c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My To do List">6f2349b32fb72010134b56e62799b63c</sys_scope>
+        <sys_update_name>sys_sg_screen_field_5f94c1372fb72010134b56e62799b6af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-05 09:53:12</sys_updated_on>
+        <type>auto</type>
+        <value_only>false</value_only>
+    </sys_sg_screen_field>
+    <sys_translated_text action="delete_multiple" query="documentkey=5f94c1372fb72010134b56e62799b6af"/>
+</record_update>
