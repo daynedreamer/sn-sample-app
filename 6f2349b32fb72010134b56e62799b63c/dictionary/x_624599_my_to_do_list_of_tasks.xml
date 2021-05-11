@@ -18,7 +18,9 @@
                 <element inactive_on_update="false" label="High" sequence="2" value="3"/>
             </choice>
         </element>
+        <element label="Quantity" max_length="40" name="quantity" type="integer"/>
         <element label="Spent Money" max_length="40" name="spent_money" type="boolean"/>
+        <element label="URL" max_length="1024" name="url" type="url"/>
         <element attributes="edge_encryption_enabled=true" label="Due Date" mandatory="true" max_length="40" name="u_calendar_date_time_4" type="calendar_date_time"/>
         <element label="Due Date" mandatory="true" max_length="40" name="u_due_date_3" type="due_date"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Steps" max_length="1024" name="u_glide_list_1" type="glide_list"/>
